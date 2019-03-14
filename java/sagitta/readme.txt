@@ -1,1 +1,0 @@
-java project utils collection, except server.
