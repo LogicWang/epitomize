@@ -1,2 +1,2 @@
 # epitomize
-utility for multi language,
+java code for algorothm, data structure and best-practice 
