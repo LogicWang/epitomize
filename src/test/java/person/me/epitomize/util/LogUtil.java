@@ -1,4 +1,4 @@
-package me.epitomize.sagitta.util;
+package person.me.epitomize.util;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
@@ -23,5 +23,10 @@ public class LogUtil {
             }
         }
         return ret;
+    }
+
+    public static void main(String[] args) {
+        String x ="";
+        System.out.println(x);
     }
 }

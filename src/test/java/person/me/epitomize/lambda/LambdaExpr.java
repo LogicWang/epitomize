@@ -1,4 +1,4 @@
-package person.me.epitomize.lambda;
+package java.person.me.epitomize.lambda;
 
 import java.util.*;
 import java.util.stream.Collectors;

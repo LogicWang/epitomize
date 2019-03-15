@@ -1,4 +1,4 @@
-package me.epitomize.sagitta.util;
+package person.me.epitomize.util;
 
 import java.io.*;
 
