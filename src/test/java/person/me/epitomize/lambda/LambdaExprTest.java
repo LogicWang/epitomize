@@ -1,4 +1,6 @@
-package java.person.me.epitomize.lambda;
+package person.me.epitomize.lambda;
+
+import org.testng.annotations.BeforeClass;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -9,9 +11,10 @@ import static java.util.stream.Collectors.*;
 /**
  * Java8+ Lambda 表达式功能实践
  */
-public class LambdaExpr {
+public class LambdaExprTest {
 
-    public static void func1(){
+    @BeforeClass
+    public static void setup(){
         Set<String> entities=new HashSet<>();
         entities.add("我们");
         entities.add("你们");
@@ -35,7 +38,7 @@ public class LambdaExpr {
                 );
     }
 
-    public static void main(String[] args) {
+    public static void main1() {
         List<User> users = new ArrayList<>();
         Map<Integer, List<String>> collect = users.stream().collect(
                 Collectors.groupingBy(User::getAge,

@@ -44,5 +44,6 @@ public class LambdaExpr {
                             return item.getName();
                         }, Collectors.toList())
                 ));
+        System.out.println(collect);
     }
 }
