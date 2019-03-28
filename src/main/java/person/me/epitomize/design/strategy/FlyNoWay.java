@@ -1,4 +1,4 @@
-package me.strategy;
+package person.me.epitomize.design.strategy;
 
 /**
  *

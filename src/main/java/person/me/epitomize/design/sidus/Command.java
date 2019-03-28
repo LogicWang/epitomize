@@ -1,4 +1,4 @@
-package me.sidus;
+package person.me.epitomize.design.sidus;
 /*
  * practice  of Command parameters
  * @version 1.0

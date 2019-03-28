@@ -1,11 +1,9 @@
-package me.cygni;
+package person.me.epitomize.design.cygni;
 
 
 import java.io.File;
 import java.io.IOException;
-
 import java.util.Scanner;
-
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 

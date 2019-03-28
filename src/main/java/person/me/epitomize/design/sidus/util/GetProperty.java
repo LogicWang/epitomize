@@ -1,11 +1,9 @@
-package me.sidus.util;
+package person.me.epitomize.design.sidus.util;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
-
 import java.io.IOException;
 import java.io.InputStream;
-
 import java.util.Properties;
 
 /**

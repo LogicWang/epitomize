@@ -1,6 +1,6 @@
-package me.sidus;
+package person.me.epitomize.design.sidus;
 
-import java.util.*;
+import java.util.Scanner;
 
 /**
  * while

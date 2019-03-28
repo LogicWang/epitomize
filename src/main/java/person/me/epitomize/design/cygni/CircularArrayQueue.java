@@ -1,6 +1,4 @@
-package me.cygni;
-
-import java.util.Collection;
+package person.me.epitomize.design.cygni;
 
 /**
  *

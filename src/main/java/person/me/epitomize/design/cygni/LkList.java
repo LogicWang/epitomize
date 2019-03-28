@@ -1,4 +1,4 @@
-package me.cygni;
+package person.me.epitomize.design.cygni;
 
 import java.util.Iterator;
 import java.util.LinkedList;

@@ -1,4 +1,4 @@
-package me.sidus;
+package person.me.epitomize.design.sidus;
 
 import me.sidus.util.GetProperty;
 

@@ -1,7 +1,7 @@
-package me.sidus;
+package person.me.epitomize.design.sidus;
 
-import java.math.*;
-import java.util.*;
+import java.math.BigInteger;
+import java.util.Scanner;
 
 /**
  * big number practice
