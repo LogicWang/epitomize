@@ -1,16 +1,16 @@
 package person.me.epitomize.design.sidus;
 
-import me.sidus.util.GetProperty;
-
 /**
  * this program display hello
  */
+
 public class Hello {
   public static void main(String[] args) {
 
-    if(args.length == 1)
-      if(args[0].equals("test1"))
-        GetProperty.outer();
+//    if(args.length == 1)
+//      if(args[0].equals("test1"))
+//        GetProperty.outer();
+
 
     String[] greeting = new String[3];
     greeting[0] = "fwr";

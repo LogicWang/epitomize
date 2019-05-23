@@ -1,4 +1,4 @@
-package java.person.me.epitomize.lambda;
+package person.me.epitomize.lambda;
 
 
 import lombok.Getter;
