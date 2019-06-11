@@ -1,4 +1,4 @@
-package person.me.epitomize.lambda;
+package person.me.epitomize.lambda.model;
 
 import lombok.Setter;
 import lombok.Getter;
@@ -8,5 +8,6 @@ import lombok.Getter;
 @Getter
 public class Track {
     private String name; //曲目名称(例如《黄色潜水艇》)。
+    private long length; //
 
 }

@@ -1,5 +1,8 @@
 package person.me.epitomize.lambda;
 
+import person.me.epitomize.lambda.model.Album;
+import person.me.epitomize.lambda.model.Artist;
+
 import java.util.*;
 import java.util.function.BinaryOperator;
 import java.util.stream.Collectors;
@@ -85,9 +88,24 @@ public class LambdaExpr {
         aList.add(1);
         aList.add(3);
         aList.add(5);
-        int n = aList.stream().reduce((a,b)-> a+b).get();
+        int n = aList.stream().reduce((a, b) -> a + b).get();
         System.out.println(n);
     }
+
+
+    public Map<Artist, Long> numberOfAlbums(Stream<Album> albums) {
+        return albums.collect(groupingBy(album -> album.getMainMusician(), counting()));
+    }
+
+    public Map<Artist, List<String>> nameOfAlbums(Stream<Album> albums) {
+        return albums.collect(groupingBy(Album::getMainMusician,
+                mapping(Album::getName, toList())));
+    }
+
+    private int addIntegers(List<Integer> values) { return values.parallelStream().mapToInt(i -> i).sum();
+    }
+
+
 
     public static void main(String[] args) {
         reduceR();
