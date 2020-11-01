@@ -18,4 +18,14 @@ public class Album {
     private List<Artist> musicians;//参与创作本专辑的艺术家列表。
     private Artist mainMusician;
 
+
+    @Override
+    public String toString() {
+        return "Album{" +
+                "name='" + name + '\'' +
+                ", tracks=" + tracks +
+                ", musicians=" + musicians +
+                ", mainMusician=" + mainMusician +
+                '}';
+    }
 }
