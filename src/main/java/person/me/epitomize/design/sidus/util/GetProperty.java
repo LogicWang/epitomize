@@ -17,12 +17,12 @@ public class GetProperty {
     Properties prop = new Properties();
     try {
       //读取jar 内属性文件a.properties
-      //String filePath =  GetProperty.class.getResourceAsStream("/tele.properties").toString();
+      //String filePath =  GetProperty.class.getResourceAsStream("/project.properties").toString();
       //InputStream in = new BufferedInputStream(new FileInputStream(filePath));
-      InputStream in = GetProperty.class.getResourceAsStream("/tele.properties");
+      InputStream in = GetProperty.class.getResourceAsStream("/project.properties");
       prop.load(in);     ///加载属性列表
 
-      System.out.println(GetProperty.class.getResourceAsStream("/config/tele.properties").toString());
+      System.out.println(GetProperty.class.getResourceAsStream("/config/project.properties").toString());
       for (String key : prop.stringPropertyNames()) {
         System.out.println(key + ":" + prop.getProperty(key));
       }
@@ -40,7 +40,7 @@ public class GetProperty {
 
   public static void inner2() throws IOException {
     Properties p = new Properties();
-    InputStream in = GetProperty.class.getClassLoader().getResourceAsStream("config/tele.properties");
+    InputStream in = GetProperty.class.getClassLoader().getResourceAsStream("config/project.properties");
     p.load(in);
     System.out.println(p.getProperty("username").trim());
   }
@@ -50,7 +50,7 @@ public class GetProperty {
     Properties prop = new Properties();
     try {
       //读取属性文件a.properties
-      String filePath = System.getProperty("user.dir") + "/tele.properties";
+      String filePath = System.getProperty("user.dir") + "/project.properties";
       InputStream in = new BufferedInputStream(new FileInputStream(filePath));
       prop.load(in);     ///加载属性列表
 
