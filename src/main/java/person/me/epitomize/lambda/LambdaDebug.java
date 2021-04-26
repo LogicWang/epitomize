@@ -2,8 +2,7 @@ package person.me.epitomize.lambda;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import person.me.epitomize.lambda.model.Album;
-import person.me.epitomize.lambda.model.Track;
+import person.me.epitomize.lambda.entity.Album;
 
 import java.util.ArrayList;
 import java.util.List;

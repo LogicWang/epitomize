@@ -1,10 +1,9 @@
-package person.me.epitomize.lambda.model;
+package person.me.epitomize.lambda.entity;
 
 import lombok.Getter;
 import lombok.Setter;
 
 import java.util.List;
-import java.util.stream.Stream;
 
 /**
  * 专辑，由若干曲目组成。

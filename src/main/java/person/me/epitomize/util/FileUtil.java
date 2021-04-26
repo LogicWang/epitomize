@@ -211,27 +211,5 @@ public class FileUtil {
                 e.printStackTrace();
             }
         }
-
-    public static void main(String[] args) {
-        String fileName = "/temp/newTemp.txt";
-        readFileByBytes(fileName);
-        readFileByChars(fileName);
-        readFileByLines(fileName);
-        readFileByRandomAccess(fileName);
-
-
-        //String fileName = "C:/temp/newTemp.txt";
-        String content = "new append!";
-        //按方法A追加文件
-        appendMethodA(fileName, content);
-        appendMethodA(fileName, "append end. \n");
-        //显示文件内容
-        readFileByLines(fileName);
-        //按方法B追加文件
-        appendMethodB(fileName, content);
-        appendMethodB(fileName, "append end. \n");
-        //显示文件内容
-        readFileByLines(fileName);
-    }
 }
 

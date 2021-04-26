@@ -1,7 +1,7 @@
 package person.me.epitomize.lambda;
 
-import person.me.epitomize.lambda.model.Album;
-import person.me.epitomize.lambda.model.Artist;
+import person.me.epitomize.lambda.entity.Album;
+import person.me.epitomize.lambda.entity.Artist;
 
 import java.util.*;
 import java.util.function.BinaryOperator;

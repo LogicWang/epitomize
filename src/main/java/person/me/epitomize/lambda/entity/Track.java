@@ -1,4 +1,4 @@
-package person.me.epitomize.lambda.model;
+package person.me.epitomize.lambda.entity;
 
 import lombok.Setter;
 import lombok.Getter;

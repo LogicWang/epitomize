@@ -1,4 +1,4 @@
-package person.me.epitomize.simple;
+package person.me.epitomize.coreJava;
 
 import java.lang.reflect.Field;
 
